@@ -21,7 +21,7 @@ The **Dozzle Agent** is a lightweight add-on that provides a web-based interface
 | **Panel Access** | Yes (`Dozzle-Agent`) |
 | **Exposed Port** | `7007/tcp` |
 
-➡️ **[See the Dozzle Agent README for detailed information and configuration.](./doozle/README.md)**
+➡️ **[See the Dozzle Agent README for detailed information and configuration.](./dozzle)**
 
 ### 2. Docker Proxy
 
@@ -36,7 +36,7 @@ The **Docker Proxy** add-on enhances the security of your Home Assistant host by
 | **Key Feature** | Endpoint filtering via Environment Variables (e.g., `CONTAINERS: "1"`, `IMAGES: "1"`) |
 | **Exposed Port** | `2375/tcp` |
 
-🛡️ **[See the Docker Proxy README for detailed security and filter configuration.](./docker-proxy/README.md)**
+🛡️ **[See the Docker Proxy README for detailed security and filter configuration.](./docker-proxy)**
 
 ---
 
