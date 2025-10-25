@@ -1,0 +1,46 @@
+# required configuration options
+name: Dozzle Agent
+version: v8.14.6
+slug: dozzle
+description: Realtime log viewer for containers. Supports Docker, Swarm and K8s.
+arch:
+  - aarch64
+  - amd64
+  - armv7
+# Esta línea deshabilita la inicialización por defecto y nos permite usar 'cmd' y 'host_pid: true'
+init: false 
+
+# COMANDO: Comando de inicio para el agente Dozzle
+cmd: agent 
+
+# VOLÚMENES Y PERMISOS: La combinación que debería resolver el acceso
+# 1. Acceso de bajo nivel al host (más permisivo)
+host_pid: true
+hassio_api: true
+auth_api: true
+docker_api: true
+host_network: true
+apparmor: false
+# homepage of the add-on
+url: "https://github.com/Adribreezy/breeznas-addons-homeassistant"
+environment:
+  DOCKER_HOST: unix:///run/docker.sock
+map:
+  - addons
+  - backup
+  - config:rw
+  - share
+  - ssl
+  - media
+  - docker
+# icon for the menu panel integration
+panel_icon: mdi:atom
+panel_admin: false
+panel_title: Dozzle-Agent
+startup: services
+ports:
+  7007/tcp: 7007
+ports_description:
+  7007/tcp: Agent Port
+# La imagen base (versión sin etiqueta implica ':latest', pero es mejor ser explícito con una versión si es posible)
+image: theadribreezy/dozzle-agent
