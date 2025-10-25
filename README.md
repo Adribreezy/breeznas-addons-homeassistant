@@ -48,7 +48,7 @@ The **Docker Proxy** add-on enhances the security of your Home Assistant host by
 4.  Add the following URL:
 
     ```
-    [[https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)]
+    https://github.com/Adribreezy/breeznas-addons-homeassistant
     ```
 
 5.  Click **Add**. The add-ons listed above should now appear in your Add-on Store.
