@@ -54,4 +54,4 @@ The **Docker Proxy** add-on enhances the security of your Home Assistant host by
 ## 🔗 Repository Source
 
 For source code, issues, and contributions, please visit:
-[https://github.com/Adribreezy/breeznas-addons-homeassistant]https://github.com/Adribreezy/breeznas-addons-homeassistant()
+[https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)
