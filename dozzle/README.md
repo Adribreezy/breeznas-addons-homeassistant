@@ -3,7 +3,7 @@
 **Dozzle Agent** is a Home Assistant Add-on providing a real-time log viewer for your containers, supporting Docker, Swarm, and K8s. This add-on runs the **Dozzle Agent** command to facilitate log viewing.
 
 * **Version:** v8.14.5
-* **Source:** [https://gitea.breeznas.com/Adrian/ha-addons-breeznas](https://gitea.breeznas.com/Adrian/ha-addons-breeznas)
+* **Source:** [https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)
 * **Image:** `theadribreezy/dozzle-agent`
 
 ## 🚀 Features
@@ -31,7 +31,7 @@ This add-on is configured to operate with extensive privileges to access Docker 
 ### 1. Installation
 
 1.  Navigate to the **Add-on Store** in your Home Assistant installation.
-2.  Add the URL of this repository to your repositories list: `https://gitea.breeznas.com/Adrian/ha-addons-breeznas`
+2.  Add the URL of this repository to your repositories list: `https://github.com/Adribreezy/breeznas-addons-homeassistant`
 3.  Find **Dozzle Agent** in the Add-on Store and click **Install**.
 
 ### 2. Network Configuration
@@ -66,4 +66,4 @@ You can configure the host port mapping for `7007/tcp` in the add-on configurati
 ## 🔗 Repository
 
 For more information and source code, visit the repository:
-[https://gitea.breeznas.com/Adrian/ha-addons-breeznas](https://gitea.breeznas.com/Adrian/ha-addons-breeznas)
+[https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)

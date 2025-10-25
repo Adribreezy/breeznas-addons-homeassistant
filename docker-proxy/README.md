@@ -3,7 +3,7 @@
 The **Docker Proxy** add-on provides a filtered proxy over your host's Docker socket, allowing you to restrict which API requests are accepted. This enhances security by limiting external tools to only the necessary Docker commands.
 
 * **Version:** `latest`
-* **Source:** [https://gitea.breeznas.com/Adrian/ha-addons-breeznas](https://gitea.breeznas.com/Adrian/ha-addons-breeznas)
+* **Source:** [https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)
 * **Image:** `tecnativa/docker-socket-proxy`
 
 ## 🛡️ Key Features
@@ -49,7 +49,7 @@ The core functionality of this proxy is managed by environment variables. A valu
 ### 1. Installation
 
 1.  Navigate to the **Add-on Store** in your Home Assistant installation.
-2.  Add the URL of this repository to your repositories list: `https://gitea.breeznas.com/Adrian/ha-addons-breeznas`
+2.  Add the URL of this repository to your repositories list: `https://github.com/Adribreezy/breeznas-addons-homeassistant`
 3.  Find **Docker Proxy** in the Add-on Store and click **Install**.
 
 ### 2. Network Configuration
@@ -85,4 +85,4 @@ The add-on exposes the filtered Docker socket on port `2375`.
 ## 🔗 Repository
 
 For more information and source code, visit the repository:
-[https://gitea.breeznas.com/Adrian/ha-addons-breeznas](https://gitea.breeznas.com/Adrian/ha-addons-breeznas)
+[https://github.com/Adribreezy/breeznas-addons-homeassistant](https://github.com/Adribreezy/breeznas-addons-homeassistant)
