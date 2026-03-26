@@ -1,6 +1,6 @@
 # required configuration options
 name: Dozzle Agent
-version: v10.2.0
+version: v10.2.1
 slug: dozzle
 description: Realtime log viewer for containers. Supports Docker, Swarm and K8s.
 arch:
